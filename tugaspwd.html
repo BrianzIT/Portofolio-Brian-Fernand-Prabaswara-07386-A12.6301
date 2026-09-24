@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Selamat Datang Di Portofolio Saya </title>
+</head>
+<body>
+    <header> 
+        <center>
+            <h1>Portofolio Brian Fernand Prabaswara</h1>
+            <h3> Program studi Sistem Informasi- Universitas Dian Nuswantoro</h3>
+            <hr size="3" color=""black" width=""100%">
+        </center>
+    </header>    
+    <nav>
+        <center>
+            <a href="#profil">Profil Saya</a>
+            <a href="#pendidikan">Riwayat Pendidikan</a>
+            <a href="#keahlian">Keahlian dan Hobi</a>
+            <a href="#proyek">Proyek Terkait</a>
+            <a href="#kontak">Kontak</a>
+        </center>
+    </nav>
+    <hr size="1" color="gray" width="100%"
+
+    <section id="profil">
+        <h2>A. Profil Saya</h2>
+        <img src="gambar/LogoUdinus.png" alt="Maaf Foto Belum bisa Di Akses" width="150" height="180" align="left" hspace="20">
+        <h1>Profil Pribadi</h1>
+    <p>Nama: Brian Fernand Prabaswara</p>
+    <p>Alamat: Jln Aip Ks Tubun 56</p>
+    <p>Kabupaten: Tegal</p>
+        <br clear="all"
+    </section>
+
+    <br>
+    <section id="pendidikan">
+    <h2>B. Riwayat Pendidikan</h2>
+
+    <table border="1" cellpadding="8" cellspacing="0" width="100%"
+    <tr bgcolor="#cccccc"
+    <h1>Pendidikan</h1>
+        <tr>
+            <th>No</th>
+            <th>Tahun</th>
+            <th>Nama Sekolah</th>
+            <th>Lulus</th>
+            
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2013</td>
+            <td><b> <a href="https://www.instagram.com/sdnpakembaran02_official/" target="_blank">SD Negeri 2 Pakembaran</b></td>
+            <td>2019</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>2019</td>
+            <td><b> <a href="https://info.mtsn2tegal.sch.id/" target="_blank">MTS Negeri 2 Tegal</A></td>
+            <td>2022</td>     
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>2022</td>
+            <td><b> <a href="https://sman1slawi.sch.id/" target="_blank">SMA Negeri 1 Slawi</a></td>
+            <td>2025</td>     
+        </tr>
+         <tr>
+            <td>4</td>
+            <td>2025</td>
+            <td><b> <a href="https://mhs.dinus.ac.id/dashboard" target="_blank">Universitas Dian Nuswantoro</a></td>
+            <td>2029</td>     
+        </tr>
+    </table>
+</section>
+
+<br>
+
+    <section id="keahlian">
+        <h2>C. Keahlian dan Hobi</h2>
+
+        <h3>1. Keahlian Utama</h3>
+    <ul>
+        <li>Pemrograman HTML, CSS, JS</li>
+        <li>Pengelolaan DataBase Mysql</li>
+        <li>Pemodelan Sistem DFD dan ERD</li>
+    </ul>
+    <h3>2. Hobi dan Minat</h3>
+    <ul>
+        <li>Ngoding </li>
+        <li>Ingin Membuat Aplikasi dan Web Profesional</li>
+        <li>Music</li>
+    </ul>
+    </section>
+    <br>
+    <section id="proyek">
+        <h2>D. Proyek dan Aktivitas Akademik</h2>
+        <article>
+            <h3>Tugas Pemrograman Web 1</h3>
+            <p>
+                Proyek Ini adalah pembuatan halaman profil dan form interaktif menggunakan
+                struktur elemen semantik HTML, tabel terstrukur, dan beberapa elemen input form
+            </p>
+        </article>
+        <asside>
+            <hr>
+            <p><b> Catatan Kampus:</b> informasi jadwal Perkuliahan dan Kurikulum dapat dilihat di portal
+                <a href="https://mhs.dinus.ac.id/akademik" target="_blank">Siadin Udinus</a>.</p>
+                <hr>
+        </asside>
+    </section>
+    <br>
+    <section id="Kontak">
+        <h2>E. Form Kontak Pengunjung</h2>
+        <p>Silahkan Isi Form di bawah ini untuk mengirimkan pesan</p>
+
+        <form action="simpan.php" method="post">
+            <table border="0" cellpadding="5">
+                <tr>
+                    <td><label for="fnama">Nama Lengkap</label></td>
+                    <td>:</td>
+                    <td><input type="text id="fnama" name="fnama" size="30" required></td>
+                </tr> 
+                <tr> 
+                    <td><label for="femail">Email</label></td>  
+                    <td>:</td> 
+                    <td><input type="email" id="femail" name="femail" size="30" required></td>
+                </tr>
+                <tr>
+                    <td> Jenis Kelamin</td>
+                    <td>:</td>
+                    <td>
+                        <input type="radio" id="pria" name="fjkel" value="Pria">
+                        <label for="pria">Pria</label>
+                        <input type="radio" id="wanita" name="fjkel" value="Wanita">
+                        <label for="wanita">Wanita</label>
+
+                    </td>
+                    </tr>
+                    <tr>
+                        <td><label for="fprodi">Program Studi</label></td>
+                        <td>:</td>
+                        <td>
+                            <select id="fprodi" name:="fprodi">
+                                <option value="SI">Sistem Informasi S1</option>
+                                <option value="TI">Teknik Informatika S1</option>
+                                <option value="DKV">Desain Komunikasi Visual S1</option>
+                            </select>
+                        </td>
+                    </tr>  
+                    </tr>
+                    <td><label for="fpesan">Pesan</label></td>
+                    <td>:</td>
+                    <td>
+                        <textarea id="fpesan" name="fpesan" rows="4" cols="32"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Kirim Pesan">
+                        <input type="reset" value="Batal">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </section>
+    <br><hr size="1" color="black">
+    <footer>
+        <center>
+            <p>&copy; 2026 Brian Fernand Prabaswara Pemrograman Web Sistem Informasi Universitas Dian Nuswantoro</p>
+        </center>
+    </footer>
+</body>
+</html>
